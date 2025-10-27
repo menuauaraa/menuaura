@@ -21,6 +21,7 @@ function GlassySearchBar() {
       <GlassCard
         displacementScale={250}
         blurAmount={0.02}
+        shadowMode={true}
         cornerRadius={48}
         padding="1px"
         className="justify-center w-full"
