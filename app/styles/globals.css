@@ -160,3 +160,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+.gradient-bg {
+      background: linear-gradient(135deg, #4CAF50 0%, #8BC34A 50%, #CDDC39 100%);
+    }
+    /* Gradient Text Effect */
+    .gradient-text {
+      background: linear-gradient(to right, #4CAF50, #CDDC39);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .font-cursive {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+    }
