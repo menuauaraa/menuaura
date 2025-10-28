@@ -202,9 +202,13 @@ function PageContent() {
       <section className="relative min-h-screen flex flex-col items-center justify-center px-6 sm:px-8 lg:px-12">
         <div className="container mx-auto max-w-7xl relative z-10 text-center space-y-16 w-full">
           <div className="space-y-6">
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-cursive gradient-text drop-shadow-lg tracking-normal leading-none mb-8">
-      MenuAura
-    </h1>
+            <div className="flex justify-center mb-8">
+              <img
+                src="/images/MenuAuralogo.png"
+                alt="MenuAura Logo"
+                className="h-32 sm:h-40 lg:h-48 w-auto drop-shadow-2xl"
+              />
+            </div>
             <p className="text-2xl sm:text-3xl text-white/90 drop-shadow-lg max-w-4xl mx-auto font-light leading-relaxed px-4">
               Transform your restaurant experience with smart, beautiful digital menus
             </p>
